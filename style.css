@@ -1,0 +1,131 @@
+css* {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1060px) {
+    #primary { width:67% }
+}
+
+@media only screen and (max-width: 640px) {
+    #primary { width: 100%; }
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-photo/white-wall_1194-6481.jpg?size=338&ext=jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+footer {
+    background-color: gray;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    border-top: 7px solid seagreen;
+    bottom: 0;
+    left: 0;
+}
+
+h1 {
+    font-family: ;'Montserrat', sans-serif;
+    font-size: 25px;
+    color: seagreen;   
+    border-bottom: 1px solid lightgray; 
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+h4 {
+    font-family: ;'Montserrat', sans-serif;
+    font-size: 18px;
+    color: seagreen;
+    border-bottom: 1px solid lightgray; 
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.container {
+        width: 500px;
+        height: 575px;
+        margin-top: 100px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+        background-color: whitesmoke;
+        border: 1px solid lightgray;
+        outline-style: outset;
+        font-family: 'Montserrat', sans-serif;
+        clear: both;   
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    color: lightgray;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid;
+}
+
+.main {
+        max-width: 50%;
+        margin-top: 100px;
+        margin-left: 30px;
+        background-color: whitesmoke;
+        border: 1px solid lightgray;
+        outline-style: outset;
+        font-family: 'Montserrat', sans-serif;
+        clear: both;
+    }
+
+.contact {
+        max-width: 50%;
+        margin-left: 30px;
+        margin-top: 100px;
+        background-color: whitesmoke;
+        border: 1px solid lightgray;
+        outline-style: outset;
+        font-family: 'Montserrat', sans-serif;
+        clear: both;
+    }
+
+#image {
+    float: left;
+    margin-right: 15px;
+}
+
+#portfolio {
+    position: fixed;
+    margin-top: 100px;
+    margin-left: 30px;
+    background-color: whitesmoke;
+    color: seagreen;
+    max-width: 50%;
+}
+
+#name {
+    float: left;
+    display: block;
+    color: seagreen;
+    margin-left: 30px;
+    z-index: 1;
+    font-size: small;
+    font-display: center;
+    font-family: 'Montserrat', sans-serif;;
+
+}
